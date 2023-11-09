@@ -22,6 +22,10 @@ img {
 	object-position: center;
 	display: block;
 }
+ul,
+li {
+	list-style-type: none;
+}
 
 html {
 	scroll-behavior: smooth;

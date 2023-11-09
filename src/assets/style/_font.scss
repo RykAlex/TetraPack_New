@@ -1,10 +1,27 @@
 @font-face {
-	font-family: "";
-	src: url(/src/assets/static/font/);
+	font-family: "CeraPro";
+	src: url(/src/assets/static/font/CeraPro-Regular.woff2);
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CeraPro";
+	src: url(/src/assets/static/font/CeraPro-Medium.woff2);
 	font-weight: 500;
 	font-display: swap;
 }
-
+@font-face {
+	font-family: "Nekst";
+	src: url(/src/assets/static/font/Nekst-Regular.woff2);
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Nekst";
+	src: url(/src/assets/static/font/Nekst-Medium.woff2);
+	font-weight: 500;
+	font-display: swap;
+}
 @font-face {
 	font-family: "";
 	src: url(/src/assets/static/font/) format("woff2-variations");
@@ -15,41 +32,56 @@
 
 h1,
 .h1 {
-	@media screen and (max-width: $mobile) {}
+	@media screen and (max-width: $mobile) {
+	}
 }
 
 h2,
 .h2 {
-	@media screen and (max-width: $mobile) {}
+	// @media screen and (max-width: $mobile) {
+	// }
 }
 
 h3,
 .h3 {
-	@media screen and (max-width: $mobile) {}
+	@media screen and (max-width: $mobile) {
+	}
 }
 
 h4,
 .h4 {
-	@media screen and (max-width: $mobile) {}
+	@media screen and (max-width: $mobile) {
+	}
 }
 
 h5,
 .h5 {
-	@media screen and (max-width: $mobile) {}
+	@media screen and (max-width: $mobile) {
+	}
 }
 
 h6,
 .h6 {
-	@media screen and (max-width: $mobile) {}
+	@media screen and (max-width: $mobile) {
+	}
 }
 
 .subtitle {
-	@media screen and (max-width: $mobile) {}
+	@media screen and (max-width: $mobile) {
+	}
 }
-
+html {
+	font-size: 62.5%; //=10px
+}
 body,
 input {
-	@media screen and (max-width: $mobile) {}
+	font-family: "CeraPro", sans-serif;
+	font-size: clamp(1.6rem, 1vw + 1rem, 2rem);
+	line-height: 130%;
+	color: var(--blue);
+	font-weight: 400;
+	@media screen and (max-width: $mobile) {
+	}
 }
 
 a {
